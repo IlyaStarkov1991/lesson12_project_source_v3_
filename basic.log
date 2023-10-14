@@ -1,0 +1,35 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-670-733
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-670-733
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:06] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Поиск идет нормально, ключ- кот
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:10] "GET /search/?s=кот HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:12] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:13] "GET /post/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:13] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:58] "POST /uploads/ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:58] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:18:58] "GET /uploads/images/Korgi.jpg HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 112-670-733
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:21:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:21:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:РџРѕРёСЃРє РёРґРµС‚ РЅРѕСЂРјР°Р»СЊРЅРѕ, РєР»СЋС‡- РєРѕС‚
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:21:45] "GET /search/?s=РєРѕС‚ HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Oct/2023 13:21:45] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
